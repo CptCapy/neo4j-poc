@@ -7,13 +7,16 @@
     <groupId>com.daniel.neo4j-poc</groupId>
     <artifactId>neo4j-poc</artifactId>
     <version>1.0-SNAPSHOT</version>
-         
+
     <properties>
         <project.source.version>1.8</project.source.version>
         <project.target.version>1.8</project.target.version>
         <project.encoding>UTF-8</project.encoding>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-         
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -35,6 +38,7 @@
             <artifactId>neo4j-jdbc-driver</artifactId>
             <version>LATEST</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -42,7 +46,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-         
+
     <build>
         <plugins>
             <plugin>

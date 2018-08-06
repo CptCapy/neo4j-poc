@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/neo4j-poc.iml" filepath="$PROJECT_DIR$/neo4j-poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neo4jpoc/neo4jpoc.iml" filepath="$PROJECT_DIR$/neo4jpoc/neo4jpoc.iml" />
+    </modules>
+  </component>
+</project>

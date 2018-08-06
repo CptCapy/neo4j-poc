@@ -9,8 +9,8 @@
         <module name="neo4jpoc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="neo4jpoc" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="neo4jpoc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
