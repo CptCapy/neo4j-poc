@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>Overview of neo4j commands</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" href="../../resources/static/css/main.css" />
+</head>
+<body>
+    <div class="main-container">
+        <th:block th:if="${commands != null}">
+            <div>
+                <p th:text="'All possible cypher commands:'"></p>
+                <ul>
+                    <li th:each="item : ${commands}" th:text="${item}">
+                        Commands entries here....
+                    </li>
+                </ul>
+            </div>
+        </th:block>
+    </div>
+</body>
+<footer>
+    <div>
+        <a href="/index">Back to index</a>
+    </div>
+</footer>
+</html>
