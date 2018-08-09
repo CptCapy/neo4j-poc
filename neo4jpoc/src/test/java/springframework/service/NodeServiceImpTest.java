@@ -52,6 +52,7 @@ public class NodeServiceImpTest {
     @After
     public void tearDown() {
         nodes.clear();
+        mapList.clear();
     }
 
     @Test
